@@ -1,0 +1,80 @@
+division_template = {
+	name = "Canadian Division"
+	division_names_group = CAN_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "1st Canadian Division"
+		location = 3778
+		division_template = "Canadian Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	division = {		
+		name = "2nd Canadian Division"
+		location = 3778
+		division_template = "Canadian Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	division = {		
+		name = "3rd Canadian Division"
+		location = 3778
+		division_template = "Canadian Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	division = {		
+		name = "4th Canadian Division"
+		location = 3778
+		division_template = "Canadian Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	division = {		
+		name = "5th Canadian Division"
+		location = 3778
+		division_template = "Canadian Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	division = {		
+		name = "6th Canadian Division"
+		location = 3778
+		division_template = "Canadian Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	division = {		
+		name = "7th Canadian Division"
+		location = 3778
+		division_template = "Canadian Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	division = {		
+		name = "8th Canadian Division"
+		location = 3778
+		division_template = "Canadian Division"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+}
